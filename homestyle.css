@@ -1,0 +1,57 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg");
+  background-size: cover;
+  margin: 0;
+}
+
+li {
+  display: inline-flex;
+  list-style: none;
+  padding: 5px 20px;
+  border: 2px solid crimson;
+  border-radius: 15px;
+}
+
+li:hover {
+  background-color: rgb(190, 229, 229);
+  color: crimson;
+}
+
+.nav-bar {
+  display: flex;
+  position: relative;
+  background-color: rgba(255, 170, 170, 0.2);
+  margin: 0%;
+  height: 80px;
+  /* border: 1px solid black; */
+}
+
+.nav-bar1 {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+.title1 {
+  position: absolute;
+  left: 20px;
+  color: crimson;
+  padding-bottom: 10px;
+  border-bottom: 1px solid crimson;
+  width: 350px;
+}
+
+.description {
+  padding: 10%;
+  /* border: 2px solid black; */
+}
+
+.desc1 {
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+}
