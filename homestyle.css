@@ -5,6 +5,7 @@
 body {
   background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg");
   background-size: cover;
+  background-attachment: fixed;
   margin: 0;
 }
 
@@ -24,7 +25,7 @@ li:hover {
 .nav-bar {
   display: flex;
   position: relative;
-  background-color: rgba(255, 170, 170, 0.2);
+  /* background-color: rgba(255, 170, 170, 0.2); */
   margin: 0%;
   height: 80px;
   /* border: 1px solid black; */
@@ -46,12 +47,41 @@ li:hover {
 }
 
 .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 10%;
+  position: relative;
+  height: 50vh;
   /* border: 2px solid black; */
 }
 
-.desc1 {
+.about {
+  position: relative;
   display: flex;
-  font-size: 3rem;
+
+  height: 50vh;
   justify-content: center;
+  border: 1px solid crimson;
+  padding: 10%;
+  background-color: rgba(136, 124, 175, 0.5);
+}
+
+#whoami {
+  position: absolute;
+  left: 10%;
+  padding-right: 20px;
+  border-right: 2px solid crimson;
+  height: 100px;
+}
+
+#para1 {
+  position: absolute;
+  right: 20px;
+  color: blueviolet;
+  font-size: 2rem;
+  width: 60%;
+  height: 100vh;
+  color: #004400;
 }
