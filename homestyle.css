@@ -1,87 +1,86 @@
-* {
-  font-family: "Raleway", sans-serif;
+body {
+  margin: 0;
+  padding: auto;
+  font-family: "Open Sans", sans-serif;
 }
 
-body {
-  background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
+/* .nav-main {
+  display: flex;
+  width: 100%;
+  background-color: crimson;
+} */
+
+/* Nav-bar */
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  font-size: 1.2rem;
   margin: 0;
+  background-color: rgb(80, 26, 129);
+  justify-content: flex-end;
+  padding-right: 10%;
+  position: fixed;
+  width: 90%;
 }
 
 li {
-  display: inline-flex;
-  list-style: none;
-  padding: 5px 20px;
-  border: 2px solid crimson;
-  border-radius: 15px;
+  padding: 20px;
 }
 
-li:hover {
-  background-color: rgb(190, 229, 229);
-  color: crimson;
+a {
+  text-decoration: none;
+  color: bisque;
 }
 
-.nav-bar {
-  display: flex;
-  position: relative;
-  /* background-color: rgba(255, 170, 170, 0.2); */
-  margin: 0%;
-  height: 80px;
-  /* border: 1px solid black; */
+a:hover {
+  color: coral;
+  transition: 0.5s;
 }
 
-.nav-bar1 {
-  position: absolute;
-  right: 50px;
-  top: 10px;
-}
+/* Home */
 
-.title1 {
-  position: absolute;
-  left: 20px;
-  color: crimson;
-  padding-bottom: 10px;
-  border-bottom: 1px solid crimson;
-  width: 350px;
-}
-
-.description {
+.container-home {
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  color: black;
+  align-items: center;
+}
+
+.about-me {
+  display: flex;
+  height: 100vh;
   justify-content: center;
   align-items: center;
-  padding: 10%;
-  position: relative;
-  height: 50vh;
-  /* border: 2px solid black; */
 }
 
-.about {
-  position: relative;
+.detail {
+  font-size: 1.5rem;
+  width: 70%;
+  text-align: center;
+}
+
+.skills {
   display: flex;
-
-  height: 50vh;
   justify-content: center;
-  border: 1px solid crimson;
-  padding: 10%;
-  background-color: rgba(136, 124, 175, 0.5);
-}
-
-#whoami {
-  position: absolute;
-  left: 10%;
-  padding-right: 20px;
-  border-right: 2px solid crimson;
-  height: 100px;
-}
-
-#para1 {
-  position: absolute;
-  right: 20px;
-  color: blueviolet;
-  font-size: 2rem;
-  width: 60%;
   height: 100vh;
-  color: #004400;
+  background-color: lightslategray;
+  align-items: center;
+}
+
+.skill {
+  width: 100px;
+  height: 100px;
+  /* border: 2px solid red; */
+  text-align: center;
+  padding: 5% 5%;
+  margin: 2%;
+}
+
+.skill > img {
+  width: 100px;
+  height: 100px;
+  align-content: center;
 }
