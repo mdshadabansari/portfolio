@@ -96,7 +96,7 @@ a:hover {
   /* flex-direction: column; */
   height: 100vh;
   justify-content: center;
-  color: black;
+  color: #0c090d;
   align-items: center;
 }
 
@@ -138,10 +138,10 @@ a:hover {
   font-size: 1.5rem;
   text-align: center;
   margin-left: 10%;
-  border-bottom-right-radius: 150px;
-  border-top-left-radius: 150px;
-  border-top-right-radius: 40px;
-  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 30%;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
   /* font-family: "Montserrat", sans-serif; */
 }
 
@@ -151,6 +151,47 @@ a:hover {
   text-align: center;
 } */
 
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.education-box {
+  /* float: right; */
+  width: 70%;
+  /* height: auto; */
+  margin: 1%;
+  padding: 2% 5%;
+  background-color: #0c090d;
+  color: #53b3cb;
+  line-height: 1;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 25%;
+}
+
+.education-box:hover {
+  transition: 0.5s;
+  transform: scale(1.02);
+  box-shadow: 5px 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+.duration {
+  color: #f9c22e;
+  font-size: 1.2rem;
+  width: 25%;
+  border-bottom: 2px solid white;
+  padding-bottom: 1%;
+  /* border: 2px solid white; */
+}
+
+.education-box h4 {
+  color: #f9c22e;
+}
+
 .skills {
   display: flex;
   flex-direction: column;
@@ -158,6 +199,7 @@ a:hover {
   /* height: 100vh; */
   /* background-color: lightslategray; */
   align-items: center;
+  min-width: 100px;
 }
 
 .front-end {
