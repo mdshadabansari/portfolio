@@ -1,0 +1,1 @@
+export default {content:["./index.html","./src/**/*.{ts,tsx}"],theme:{extend:{fontFamily:{inter:["Inter","sans-serif"],pixel:["basis33","monospace"]}}},plugins:[]};
